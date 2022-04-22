@@ -13,12 +13,25 @@ textarea {
   padding: 10px;
 }
 
+.col-9 {
+  width: 886px;
+  flex: 0 0 95%;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(41, 108, 233);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding: 2rem;
+}
+
+#currentDay {
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  top: 14px;
 }
 
 .description {
