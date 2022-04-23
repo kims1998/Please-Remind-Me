@@ -1,5 +1,6 @@
 const currentTime = $('#currentDay');
 
+//the array is utilized help create the time intervals.
 let daily = [
     [09, ''],
     [10, ''],
@@ -12,7 +13,7 @@ let daily = [
     [17, '']
 ];
 
-
+//this tracks the current time.
 let rightNow = 0;
 
 //This function is created so that it will note the change from 59 minutes going into the next hour and 0 minutes.
@@ -21,6 +22,7 @@ let currentHour = setInterval(function () {
         rightNow = moment().hours();
         displayTable();
     }
+//1000 milliseconds = 1 second
 }, 1000);
 
 
@@ -44,6 +46,7 @@ function saveMyDay() {
 
 
 //this function deals with the current time interval that is displayed up in the header at real time.
+//this will display the time as: Apr 22, 20222 at 04:36:56 pm with the second self updating without refreshing the screen.
 function displayTime() {
     currentTime.text(moment().format('MMM DD, YYYY [at] hh:mm:ss a'));
 };
@@ -58,6 +61,7 @@ function displayTable() {
 
     //if row[0] is less than or equal to 12, then row[0] is remainder of 12, which is 9:00.... if row[0] is less than 12, it will be AM || PM (line 58)
     //Included %12 so that the remainder can help display the time into 12hr format instead of 24hr format.
+    //within this divTemplate, on line 70, is used to colorize the textarea depending on the time of day. if the row[0] is less than(greyed out), equal to(red), or greater than (green)
     for (let row of daily) {
         
         divTemplate += `
@@ -78,36 +82,11 @@ function displayTable() {
 
 }
 
+//this function is used to call all the functions to actually display the table, along with when the data is saved, it will move into the localStorage
 function holler() {
     getDaily();
     displayTable();
-
-
 }
 
+//calling the function above.
 holler();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//if the current time is less than the time of the calender, the color changes to gray
-
-//else if current time is equal to the time of the calender, the color stays white
-
-//else if current time is greater than the time of the calender, the color changes to green
-

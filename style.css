@@ -13,6 +13,7 @@ textarea {
   padding: 10px;
 }
 
+/* added to adjust the length of the textarea, without was causing it to be thinner and more away from center*/
 .col-9 {
   width: 886px;
   flex: 0 0 95%;
@@ -27,6 +28,7 @@ textarea {
   padding: 2rem;
 }
 
+/*personal preference to adjust the location of the timer along with the spacing above and below.*/
 #currentDay {
   font-size: 2em;
   font-weight: bold;
