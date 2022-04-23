@@ -50,8 +50,9 @@ Rest well user,
 
 
 Screenshots:
-![time is within parameters](file:///C:/Users/hocol/OneDrive/Desktop/CODING/Homework/Please-Remind-Me/IMG/During%20shift.JPG "During Work")
-![time out of parameters](file:///C:/Users/hocol/OneDrive/Desktop/CODING/Homework/Please-Remind-Me/IMG/EOS.JPG "Past 5PM")
+<a href= "https://github.com/kims1998/Please-Remind-Me/blob/main/IMG/During%20shift.JPG">Within Working Hours</a>
+<a href= "https://github.com/kims1998/Please-Remind-Me/blob/main/IMG/EOS.JPG">Time out of parameters</a>
 
+URLs:
 <a href= "https://kims1998.github.io/Please-Remind-Me/">Deployed URL</a>
 <a href= "https://github.com/kims1998/Please-Remind-Me">GitHub Repository Link</a>
