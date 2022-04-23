@@ -50,7 +50,7 @@ Rest well user,
 
 
 Screenshots:
-<a href= "https://github.com/kims1998/Please-Remind-Me/blob/main/IMG/During%20shift.JPG">Within Working Hours</a>
+<a href= "https://github.com/kims1998/Please-Remind-Me/blob/main/IMG/During_shift.JPG">Within Working Hours</a>
 <a href= "https://github.com/kims1998/Please-Remind-Me/blob/main/IMG/EOS.JPG">Time out of parameters</a>
 
 URLs:
