@@ -56,7 +56,6 @@ setInterval(displayTime, 1000);
 
 //This function is created to help display the table. If user clicks on agenda, user can add input
 function displayTable() {
-    let htmlTemplate = ``;
     let divTemplate = ``;
 
     //if row[0] is less than or equal to 12, then row[0] is remainder of 12, which is 9:00.... if row[0] is less than 12, it will be AM || PM (line 58)
